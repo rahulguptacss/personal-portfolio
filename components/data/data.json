@@ -1,0 +1,237 @@
+{
+  "common": {
+    "Header": {
+      "name": "Rahul",
+      "name_highlight": "Gupta",
+      "role": "Web Designer & Developer",
+      "avatar": "/img/about.webp",
+      "links": [
+        { "name": "Home", "href": "#home" },
+        { "name": "About Me", "href": "#about" },
+        { "name": "Skills", "href": "#skills" },
+        { "name": "Services", "href": "#services" },
+        { "name": "Projects", "href": "#projects" },
+        { "name": "Experience", "href": "#experience" },
+        { "name": "Testimonial", "href": "#stories" },
+        { "name": "Contact", "href": "#contact" }
+      ],
+      "socials": [
+        { "name": "LinkedIn", "href": "https://linkedin.com" },
+        { "name": "Instagram", "href": "https://instagram.com" },
+        { "name": "GitHub", "href": "https://github.com" },
+        { "name": "Behance", "href": "https://behance.net" }
+      ]
+    },
+    "Footer": {
+      "copyright_before": "© 2026",
+      "name": "Rahul Gupta",
+      "copyright_after": ". All Rights Reserved."
+    }
+  },
+  "categories": {
+    "Portfolio": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "metadata": {
+                "title": "Rahul Gupta | Web Designer & Developer",
+                "description": "Personal portfolio of Rahul Gupta, a web designer and developer."
+              },
+              "components": [
+                { "key": "HeroSection", "component": "Hero" },
+                { "key": "AboutSection", "component": "About" },
+                { "key": "SkillsSection", "component": "Skills" },
+                { "key": "ServicesSection", "component": "Services" },
+                { "key": "ProjectsSection", "component": "Projects" },
+                { "key": "ExperienceSection", "component": "Experience" },
+                { "key": "TestimonialsSection", "component": "Testimonials" },
+                { "key": "ContactSection", "component": "Contact" }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "id": "home",
+              "eyebrow": "HELLO, I'M",
+              "name": "Rahul",
+              "name_highlight": "Gupta",
+              "role": "Web Designer & Developer",
+              "description": "I design and build modern, responsive and user-friendly websites that help businesses grow online.",
+              "button_text": "View My Work",
+              "button_href": "#projects",
+              "cv_text": "Download CV",
+              "cv_href": "#about",
+              "image": "/img/heromen.png"
+            },
+            "about": {
+              "id": "about",
+              "title": "About",
+              "title_highlight": "Me",
+              "description": "I'm a passionate Web Designer & Developer with a focus on creating modern, user-friendly and high-performance websites. I love turning ideas into clean, functional and visually appealing digital experiences.",
+              "image": "/img/about.webp",
+              "role": "UI/UX Designer & Web Developer",
+              "summary": "I design and develop clean, modern and responsive websites that deliver a great user experience and real business results.",
+              "note": "I enjoy solving real problems through design and technology, and I'm always excited to take on new challenges and create something meaningful.",
+              "facts": [
+                { "icon": "calendar", "label": "Birthday", "value": "14 March 1990" },
+                { "icon": "user", "label": "Age", "value": "30" },
+                { "icon": "globe", "label": "Website", "value": "www.example.com" },
+                { "icon": "cap", "label": "Degree", "value": "Master's" },
+                { "icon": "phone", "label": "Phone", "value": "+100000000000" },
+                { "icon": "mail", "label": "Email", "value": "info@xyz.com" },
+                { "icon": "pin", "label": "City", "value": "New York, NY" },
+                { "icon": "bag", "label": "Freelance", "value": "Available" }
+              ]
+            },
+            "skills": {
+              "id": "skills",
+              "eyebrow": "My Skills",
+              "title": "My",
+              "title_highlight": "Skills",
+              "description": "A set of technical and creative skills that help me build modern, user-friendly and high-performing digital experiences.",
+              "items": [
+                { "name": "HTML", "value": 95, "icon": "html" },
+                { "name": "CSS", "value": 92, "icon": "css" },
+                { "name": "JavaScript", "value": 88, "icon": "js" },
+                { "name": "Bootstrap", "value": 94, "icon": "bootstrap" },
+                { "name": "WordPress", "value": 90, "icon": "wordpress" },
+                { "name": "PHP", "value": 85, "icon": "php" },
+                { "name": "MySQL", "value": 80, "icon": "mysql" },
+                { "name": "Figma (UI/UX)", "value": 87, "icon": "figma" }
+              ],
+              "tags": [
+                { "name": "Frontend Development", "icon": "code" },
+                { "name": "Responsive Design", "icon": "layers" },
+                { "name": "Backend Basics", "icon": "gear" },
+                { "name": "UI/UX Design", "icon": "pen" },
+                { "name": "CMS Development", "icon": "wordpress" },
+                { "name": "Website Optimization", "icon": "rocket" }
+              ]
+            },
+            "services": {
+              "id": "services",
+              "eyebrow": "My Services",
+              "title": "My",
+              "title_highlight": "Services",
+              "description": "I provide a range of web and digital services to help individuals and businesses build a strong and professional online presence.",
+              "items": [
+                { "icon": "layout", "title": "Web Design", "text": "Modern and attractive website designs with a great user experience." },
+                { "icon": "code", "title": "Web Development", "text": "Custom, responsive and high-performance websites." },
+                { "icon": "device", "title": "Responsive Design", "text": "Websites that look and work perfectly on all devices." },
+                { "icon": "wordpress", "title": "WordPress Development", "text": "Professional WordPress websites with custom design, themes and plugin integration." },
+                { "icon": "cart", "title": "E-Commerce Development", "text": "Secure, scalable and easy-to-manage online stores that grow your business." },
+                { "icon": "support", "title": "Website Maintenance", "text": "Regular updates, security checks and performance optimization to keep your website running smoothly." }
+              ]
+            },
+            "projects": {
+              "id": "projects",
+              "eyebrow": "My Projects",
+              "title": "My",
+              "title_highlight": "Projects",
+              "description": "A showcase of my recent web design and development projects.",
+              "items": [
+                { "title": "Shaye", "href": "https://shaye.co.in/" },
+                { "title": "Akka Brands", "href": "https://akkabrands.com/" },
+                { "title": "1930 Mills", "href": "https://1930mills.com/" },
+                { "title": "Fillcoff", "href": "https://www.fillcoff.com/" },
+                { "title": "Bus Coach India", "href": "https://buscoachindia.co/" },
+                { "title": "Law Samadhan", "href": "https://lawsamadhan.com/" },
+                { "title": "Akshat Groups", "href": "https://akshatgroups.com/" },
+                { "title": "Holkar Jiwan Saathi", "href": "https://holkarjiwansaathi.com/" }
+              ]
+            },
+            "experience": {
+              "id": "experience",
+              "eyebrow": "My Experience",
+              "title": "My",
+              "title_highlight": "Experience",
+              "description": "A detailed overview of my professional journey, key roles and achievements from 2016 to 2026.",
+              "items": [
+                {
+                  "years": "2021 – 2026",
+                  "icon": "code",
+                  "title": "Framer Designer & Developer",
+                  "place": "(Bronudee Agency)",
+                  "points": [
+                    "Led website design and development projects.",
+                    "Created high-converting, responsive websites.",
+                    "Managed UI/UX, performance and client delivery."
+                  ]
+                },
+                {
+                  "years": "2018 – 2021",
+                  "icon": "team",
+                  "title": "Developer & Co-founder",
+                  "place": "(Bronudee Agency)",
+                  "points": [
+                    "Co-founded and grew the agency from scratch.",
+                    "Handled web development and project execution.",
+                    "Built and managed a small, skilled team."
+                  ]
+                },
+                {
+                  "years": "2016 – 2018",
+                  "icon": "screen",
+                  "title": "Front-end Developer",
+                  "place": "(Bronudee Agency)",
+                  "points": [
+                    "Developed responsive and user-friendly interfaces.",
+                    "Worked on HTML, CSS, JavaScript and frameworks.",
+                    "Converted design concepts into pixel-perfect websites."
+                  ]
+                },
+                {
+                  "years": "2016",
+                  "icon": "cap",
+                  "title": "Career Start – Web Designer",
+                  "place": "(Freelance)",
+                  "points": [
+                    "Started my professional journey as a freelance designer.",
+                    "Worked on small business and personal website projects.",
+                    "Built a strong foundation in web design and development."
+                  ]
+                }
+              ]
+            },
+            "testimonials": {
+              "id": "stories",
+              "eyebrow": "Client Testimonials",
+              "title": "Client",
+              "title_highlight": "Testimonials",
+              "description": "Hear from our happy clients about their experience working with us.",
+              "items": [
+                { "quote": "Working with the team was a great experience. They delivered a high-quality, responsive website on time and exceeded our expectations with their creativity and support.", "name": "Sarah Mitchell", "role": "Marketing Manager", "image": "/img/avatar-1.webp", "stars": 5 },
+                { "quote": "Professional, reliable and truly experts in what they do. The communication was smooth, the design was modern and the final result has helped our business grow online.", "name": "David Wilson", "role": "Business Owner", "image": "/img/avatar-2.webp", "stars": 5 },
+                { "quote": "The new site is clear and easy for our customers to use. The process stayed on schedule, the pages look sharp on every screen, and the final result has helped us grow.", "name": "Emma Brooks", "role": "Product Lead", "image": "/img/avatar-3.webp", "stars": 5 }
+              ]
+            },
+            "contact": {
+              "id": "contact",
+              "eyebrow": "GET IN TOUCH",
+              "title": "Contact Us",
+              "description": "Tell me about your project. I will reply with the next step.",
+              "address_title": "Address",
+              "phone_title": "Call Us",
+              "email_title": "Email Us",
+              "address": "123 Education Lane, New York, NY 10001",
+              "phone": "+100000000000",
+              "email": "info@xyz.com",
+              "name_label": "Your Name",
+              "email_label": "Your Email",
+              "subject_label": "Subject",
+              "message_label": "Message",
+              "name_placeholder": "Enter your name",
+              "email_placeholder": "Enter your email",
+              "subject_placeholder": "Enter subject",
+              "message_placeholder": "Write your message here...",
+              "button_text": "Send Message",
+              "success_message": "Thanks. We have your message.",
+              "map_embed": "https://maps.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&z=14&output=embed"
+            }
+          }
+        }
+      }
+    }
+  }
+}
